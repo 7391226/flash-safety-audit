@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>full_red_5hz</title>
+<!-- TEST FIXTURE: may flash. Open only in a headless browser. -->
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #box {
+    position: absolute;
+    left: 0vw; top: 0vh;
+    width: 100vw; height: 100vh;
+    background: #f00;
+    animation: blink 0.2s steps(1, end) infinite;
+  }
+  @keyframes blink {
+    0%   { background: #f00; }
+    50%  { background: #000; }
+  }
+</style>
+</head>
+<body><div id="box"></div></body>
+</html>

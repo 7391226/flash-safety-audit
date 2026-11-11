@@ -1,0 +1,24 @@
+flash-safety-audit
+Copyright (c) 2026 flash-safety-audit contributors
+Licensed under the MIT License (see LICENSE).
+
+This project does not include third-party source code. It depends on and
+builds upon the following work:
+
+IRIS (Electronic Arts Inc.)
+  Photosensitive epilepsy risk detection library.
+  https://github.com/electronicarts/IRIS
+  License: BSD-3-Clause
+
+iris-pse-detection
+  Python port of IRIS, installed as a dependency.
+  https://pypi.org/project/iris-pse-detection/
+  License: MIT
+
+Playwright for Python (Microsoft Corporation)
+  https://github.com/microsoft/playwright-python
+  License: Apache-2.0
+
+OpenCV (opencv-python)
+  https://github.com/opencv/opencv-python
+  License: Apache-2.0 (OpenCV) / MIT (packaging)

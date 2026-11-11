@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+reports/
+tests/videos/
+*.pyc
+flash-safety-audit-yonerge.md

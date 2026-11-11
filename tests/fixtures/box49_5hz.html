@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>box49_5hz</title>
+<!-- TEST FIXTURE: may flash. Open only in a headless browser. -->
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #box {
+    position: absolute;
+    left: 25.5vw; top: 25.5vh;
+    width: 49vw; height: 49vh;
+    background: #fff;
+    animation: blink 0.2s steps(1, end) infinite;
+  }
+  @keyframes blink {
+    0%   { background: #fff; }
+    50%  { background: #000; }
+  }
+</style>
+</head>
+<body><div id="box"></div></body>
+</html>

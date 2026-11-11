@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>static_white</title>
+<!-- TEST FIXTURE: may flash. Open only in a headless browser. -->
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #box {
+    position: absolute;
+    left: 0vw; top: 0vh;
+    width: 100vw; height: 100vh;
+    background: #fff;
+    
+  }
+  @keyframes blink {
+    0%   { background: #fff; }
+    50%  { background: #000; }
+  }
+</style>
+</head>
+<body><div id="box"></div></body>
+</html>
